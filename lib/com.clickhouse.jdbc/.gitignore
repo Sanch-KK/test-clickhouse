@@ -1,0 +1,53 @@
+# MacOS
+.DS_Store
+
+# Java Files
+*.class
+*.jar
+*.war
+*.ear
+
+# VSCode
+.bloop
+.metals
+.vscode
+.factorypath
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Eclipse TestNG plugin
+test-output/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+out/
+
+# Maven
+.antlr/
+log/
+target/
+
+# Generated files
+.flattened-pom.xml
+dependency-reduced-pom.xml
+**/parser/javacc/*
+**/parser/*CharStream.java
+**/parser/ClickHouseSqlParser.java
+**/parser/ClickHouseSqlParserConstants.java
+**/parser/ClickHouseSqlParserTokenManager.java
+**/parser/Token*.java
+**/parser/ParseException.java
+java.prof
+jmh-result.*
+profile.html
+
+# Shell scripts
+*.sh
+
+# test configuration
+**/test/resources/test.properties
